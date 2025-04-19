@@ -1,5 +1,8 @@
-package com.biblioteca.biblioteca_digital.models;
-// AuthResponse.java
+package com.biblioteca.biblioteca_digital.dto;
+
+import lombok.Data;
+
+@Data
 public class AuthResponse {
     private String token;
 
@@ -7,7 +10,5 @@ public class AuthResponse {
         this.token = token;
     }
 
-    public String getToken() {
-        return token;
-    }
 }
+

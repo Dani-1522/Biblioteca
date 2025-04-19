@@ -1,4 +1,4 @@
-package com.biblioteca.biblioteca_digital.models;
+package com.biblioteca.biblioteca_digital.dto;
 
 import lombok.Data;
 
@@ -6,4 +6,5 @@ import lombok.Data;
 public class AuthRequest {
     private String username;
     private String password;
+
 }
